@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pizzaApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 5px solid green;
+    /* background-color: aqua; */
+    background-image: url('./images/background.jpeg');
+    /* background-repeat:repeat-x; */
+}
+
+#WelcomeHeading{
+    display: inline-block;
+    margin: -40px;
+    margin-right: -500px;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+
+/* 
+#type1{
+    
+    margin-left: 100px;
+    margin-top:30px
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+#container1{
+    position: relative;
+    left: 15px;
+}
+
+
+/* Plate */
+#plate{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    display: inline-block;
+    border-radius: 20%;
+    background-image: url("./images/table.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+}
+#div1{
+    position: relative;
+    left: 120px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+/* Base */
+#base{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+    width: 150px;
+    height: 450px;
+    position: relative;
+    right: 100px;
+    background-image: url("./images/wooden\ floor.jpeg");
+    border-radius: 2%;
+    
+}
+#BaseHeading{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#wholeWheatBase{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#multiGrainBase{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.baseClass{
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+}
+
+#wholeWheatId{
+    position: relative;
+    left: 3px;
+}
+
+#multiGrainID{
+    position: relative;
+    left: 15px;
+}
+
+/* Toppings */
+#toppings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greenPepper{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+}
+#onion{
+    width: 120px;
+    height: 100px;
+}
+#mushroom{
+    width: 110px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+}
+
+#CapsicumTopingDiv{
+    position: relative;
+    bottom:25px;
+    left: 20px;
+}
+#OnionTopingDiv{
+    position: relative;
+    bottom: 25px;
+    left: 40px;
+}
+#MushroomTopingDiv{
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+}
+#toppingsHeading{
+    position: relative;
+    bottom: 5px;
+}
+
+
+#bakeText{
+    position: relative;
+    bottom: 120px;
+    left: 70px;
+}
+
+
+
+/* Button design  */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 50%;
+  position: relative;
+  top: 140px;
+  left:100px;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}

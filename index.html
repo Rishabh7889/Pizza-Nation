@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="pizzaApp">
+      <div class="container">
+        <div id="base">
+          <div>
+            <h3 id="BaseHeading">SELECT BASE</h3>
+            <div>
+              <img
+                draggable="true"
+                ondragstart="drag(event)"
+                id="wholeWheatBase"
+                class="baseClass"
+                src="./images/wholeWheat.jpeg"
+                alt="Whole Wheat"
+              />
+              <h3 id="wholeWheatId">Whole Wheat</h3>
+            </div>
+            <div>
+              <img
+                draggable="true"
+                ondragstart="drag(event)"
+                id="multiGrainBase"
+                class="baseClass"
+                src="./images/multiGrain.jpeg"
+                alt="Multi Grain"
+              />
+              <h3 id="multiGrainID">Multi Grain</h3>
+            </div>
+          </div>
+        </div>
+        <div id="WelcomeHeading">
+          <h1>WELCOME TO PIZZA NATION</h1>
+        </div>
+        <div id="plate">
+          <div>
+            <h4
+              id="div1"
+              ondrop="drop(event)"
+              ondragover="allowDrop(event)"
+            ></h4>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
